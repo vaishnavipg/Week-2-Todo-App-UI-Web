@@ -1,0 +1,13 @@
+.price-container{
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+}
+.price-card{
+    width: 20%;
+    height: 250px;
+    border: 1px double rgb(240, 44, 44);
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(161, 163, 167, 0.945);
+}
