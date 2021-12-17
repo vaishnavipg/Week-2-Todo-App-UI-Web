@@ -51,9 +51,9 @@ height:100% ;
 padding-top:38px ;
 position: absolute;
 top: 0px;
-right: 0px;
+right: -15px;
 margin: auto -30px;
-font-size: 30px;
+font-size: 28px;
 opacity: 0.4;
 }
 
@@ -62,7 +62,7 @@ opacity: 0.4;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content:space-around;
-    margin: 50px 50px;
+    margin: 50px auto;
 
 }
 
@@ -94,11 +94,12 @@ opacity: 0.4;
     height:10% ;
     position: absolute;
     top: 35%;
-    font-size: 22px;
+    left:auto
+    font-size: 25px;
     color: rgb(241, 38, 38);
     text-align: right;
     font-weight: bold;
-    text-decoration: 3px solid line-through rgb(241, 38, 38);
+    text-decoration: 2px solid line-through rgb(241, 38, 38);
         
 }
 
@@ -108,7 +109,7 @@ opacity: 0.4;
     position: absolute;
     top: 50%;
     text-align:left;
-    font-size: 22px;
+    font-size: 20px;
     
 }
 
@@ -122,8 +123,7 @@ opacity: 0.4;
     width: 14%;
     height: 50vh;
     position:relative;    
-    margin-top: 10px;
-    
+    margin-top: 10px;    
     border: 1.5px solid red;
     border-radius:8px;
     box-shadow: 5px 5px 10px grey; 
@@ -135,8 +135,7 @@ opacity: 0.4;
     width: 14%;
     height: 50vh;
     position:absolute;    
-    margin-top: 10px;
-  
+    margin-top: 10px;  
     border: 1.5px solid red;
     border-radius:8px;
     box-shadow: 5px 5px 10px grey; 
@@ -144,7 +143,7 @@ opacity: 0.4;
 }
 
 
-.notshow{
+.not-show{
 filter:blur(6px);
 -webkit-filter:blur(6px) ;
 }
@@ -203,40 +202,27 @@ filter:blur(6px);
 
 
 .pop-up{
-    width: 14%;
-    height: 50vh;
-    position: relative;  
-    margin-top: 50px;
-    /*border: 1.5px solid red;
+    width: 30%;
+    height: 30vh;
+    padding:20px;
+    position: absolute;  
+    margin-top:-360px;
+    margin-left: 30%;
+    color: red;
+    border: 1.5px solid red;
     border-radius:8px;
     box-shadow: 5px 5px 10px grey; 
     text-align:center;
-    color: red;
-    box-shadow: 3px 3px 10px grey;*/
-
-    /*
-    width: 27%;
-    height: 13vh;
-    padding: 20px;
-    position: absolute;
-    left: 37%;
-    top: 30%;
-    border: 1.5px solid red;
-    border-radius: 10px;
-    color: red;
-    font-size: 18px;
-    box-shadow: 3px 3px 10px grey;
-    background-color:white;*/
-    
-
+    box-shadow: 3px 3px 10px grey;  
 }
- /*.add-new{
+
+.add-new{
      opacity: 0.7;
      font-size: 17px;
  }
 
  .pop-upbar{
-     width: 85%;
+     width: 80%;
      height: 27%;
      margin-top: 20px;
      border: 1.5px solid red;
@@ -248,8 +234,8 @@ filter:blur(6px);
      width: 25%;
      height: 20%;
      position: absolute;
-     left: 130px;
-     margin-top: 18px;
+     left: 155px;
+     margin-top: 80px;
      color: white;
      border: none;
      border-radius: 20px;
@@ -258,4 +244,3 @@ filter:blur(6px);
 
 
  }
-*/
