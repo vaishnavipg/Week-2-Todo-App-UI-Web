@@ -6,7 +6,7 @@
 }
 
 .upper-container{
-width: 50%;
+width: 60%;
 height: 10%;
 margin: 50px auto;
 position: relative;
@@ -15,61 +15,78 @@ position: relative;
 .upper-container1{
 width: 35%;
 height: 100%;
-padding-top:20px ;
+padding-top:35px ;
 }
 
 #tasks{
 font-weight: bold;
-font-size: 2.5rem;
+font-size: 50px;
+
 }
 
 #lists{
-    font-size: 2.5rem;
+    font-size: 50px;
+    font-weight:lighter;
     margin-left: 10px;
-    opacity: 0.5;
+    opacity: 0.4;
+    
 }
 
 .upper-container2{
 width:35% ;
 height: 100%;
-padding-top: 20px;
+padding-top: 35px;
 position: absolute;
 top: 0px;
 right: 0px;
+}
+
+#circle{
+    margin: auto 60px;
 }
 
 #addlist{
 width:80% ;
 height:100% ;
-padding-top:25px ;
+padding-top:38px ;
 position: absolute;
 top: 0px;
 right: 0px;
+margin: auto -30px;
 font-size: 30px;
-opacity: 0.5;
+opacity: 0.4;
+}
+
+.price-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin: 50px 50px;
+
 }
 
 .card1{
-    width: 15%;
-    height: 45vh;
-    position: relative;
-    margin: auto;
+    width: 14%;
+    height: 50vh;
+    position: relative;  
     margin-top: 10px;
     border: 1.5px solid red;
     border-radius:8px;
     box-shadow: 5px 5px 10px grey; 
+    text-align:center;
 }
 
 .div1{
     width:85% ;
     height: 15%;
     position: absolute;
-    top: 15px;
+    top: 35px;
     right: 0px;
     text align:left;
-    font-size:25px;
-    col0r: red;
-    border-bottom:1px solid black;
+    font-size:23px;
+    color:  rgb(241, 38, 38);
+    border-bottom:3px solid lightgrey;
 }
 
 .div2{
@@ -78,10 +95,11 @@ opacity: 0.5;
     position: absolute;
     top: 35%;
     font-size: 22px;
-    color: red;
+    color: rgb(241, 38, 38);
     text-align: right;
     font-weight: bold;
-    text-decoration: line-through;
+    text-decoration: 3px solid line-through rgb(241, 38, 38);
+        
 }
 
 .div3{
@@ -90,16 +108,154 @@ opacity: 0.5;
     position: absolute;
     top: 50%;
     text-align:left;
-    font-size: 25px;
+    font-size: 22px;
+    
 }
 
 #check{
     width: 20px;
     height: 20px;
-    margin-left: 10px;
+    margin-left:10px;
 }
+
+.card2{
+    width: 14%;
+    height: 50vh;
+    position:relative;    
+    margin-top: 10px;
+    
+    border: 1.5px solid red;
+    border-radius:8px;
+    box-shadow: 5px 5px 10px grey; 
+    text-align: center;
+    
+}
+
+.card3{
+    width: 14%;
+    height: 50vh;
+    position:absolute;    
+    margin-top: 10px;
+  
+    border: 1.5px solid red;
+    border-radius:8px;
+    box-shadow: 5px 5px 10px grey; 
+    text-align:center;
+}
+
+
 .notshow{
 filter:blur(6px);
 -webkit-filter:blur(6px) ;
 }
 
+.upper-container3{
+    width: 35%;
+    height: 10%;
+    padding-top:40px ;
+    margin: 10px 350px;
+}
+
+#line{
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 12px;
+    text-decoration: 3px solid line-through lightslategray;
+}
+#heading{
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 10px;
+}
+
+#arrow{
+    margin: 30px 200px;
+}
+
+#Back{
+    font-size: 28px;
+    font-weight:lighter;
+    margin-left: 250px;
+    margin-top: -65px;
+    opacity: 0.4;
+}
+
+
+.item-card1{
+    width: 20%;
+    height: 50vh;
+    position:absolute;  
+    margin:40px 130px;
+    border: 1.5px solid red;
+    border-radius:8px;
+    box-shadow: 5px 5px 10px grey; 
+    text-align:center;
+}
+#item-check{
+    width: 20px;
+    height: 20px;
+    margin-left:50px;
+}
+
+#item-circle{
+    margin: 250px 220px;
+}
+
+
+.pop-up{
+    width: 14%;
+    height: 50vh;
+    position: relative;  
+    margin-top: 50px;
+    /*border: 1.5px solid red;
+    border-radius:8px;
+    box-shadow: 5px 5px 10px grey; 
+    text-align:center;
+    color: red;
+    box-shadow: 3px 3px 10px grey;*/
+
+    /*
+    width: 27%;
+    height: 13vh;
+    padding: 20px;
+    position: absolute;
+    left: 37%;
+    top: 30%;
+    border: 1.5px solid red;
+    border-radius: 10px;
+    color: red;
+    font-size: 18px;
+    box-shadow: 3px 3px 10px grey;
+    background-color:white;*/
+    
+
+}
+ /*.add-new{
+     opacity: 0.7;
+     font-size: 17px;
+ }
+
+ .pop-upbar{
+     width: 85%;
+     height: 27%;
+     margin-top: 20px;
+     border: 1.5px solid red;
+     border-radius: 4px;
+     box-shadow: 1px 1px 3px grey;
+ }
+
+ .pop-up-button{
+     width: 25%;
+     height: 20%;
+     position: absolute;
+     left: 130px;
+     margin-top: 18px;
+     color: white;
+     border: none;
+     border-radius: 20px;
+     background-color: red;
+     font-size: 20px;
+
+
+ }
+*/
