@@ -86,6 +86,12 @@
     border-bottom: 1px solid grey;
 }
 
+a.button {
+    color: inherit;
+    text-decoration: inherit;
+    color: red;
+}
+
 .div2 {
     width: 90%;
     height: 10%;
